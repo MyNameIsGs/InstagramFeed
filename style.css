@@ -1,0 +1,39 @@
+body {
+    background: whitesmoke;
+    
+}
+
+header {
+    background:white;
+    padding: 10px;
+}
+header h1, body{
+    margin: 0;
+}
+.post {
+    background: white;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.post img{
+    width: 100%;
+}
+.post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+.post-header div:last-child{
+    display: inline-block;
+    width: 16%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+}
+.post h2, .post p{
+    padding: 10px;
+    margin: 0;
+}
+.container{
+    width: 600px;
+    margin: auto;
+}
